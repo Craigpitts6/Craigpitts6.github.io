@@ -1,0 +1,81 @@
+css_content = """
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #1d3557;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1d3557;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e63946;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #1d3557;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    background-color: #1d3557;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* American Flag Background for "Our Mission" Section */
+#our-mission {
+    background-image: url('american-flag.jpg');
+    background-size: cover;
+    color: #ffffff;
+}
+
+/* American Flag Background for "Spotlight" Section */
+#Spotlight {
+    background-image: url('american-flag.jpg');
+    background-size: cover;
+    color: #ffffff;
+}
+"""
+
+# Specify the file name
+css_file_name = "website.css"
+
+# Open the file for writing (create the file if it doesn't exist)
+with open(css_file_name, "w") as css_file:
+    css_file.write(css_content)
+
+print(f"CSS file '{css_file_name}' has been created.")
