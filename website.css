@@ -1,4 +1,3 @@
-css_content = """
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
@@ -19,7 +18,7 @@ nav ul {
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin right: 20px;
 }
 
 nav a {
@@ -65,17 +64,7 @@ footer {
 
 /* American Flag Background for "Spotlight" Section */
 #Spotlight {
-    background-image: url('american-flag.jpg');
+    background-image: url('Americas.jpg');
     background-size: cover;
     color: #ffffff;
 }
-"""
-
-# Specify the file name
-css_file_name = "website.css"
-
-# Open the file for writing (create the file if it doesn't exist)
-with open(css_file_name, "w") as css_file:
-    css_file.write(css_content)
-
-print(f"CSS file '{css_file_name}' has been created.")
