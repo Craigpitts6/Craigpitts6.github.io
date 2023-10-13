@@ -1,3 +1,4 @@
+/* General Styling */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
@@ -10,6 +11,11 @@ header {
     color: #ffffff;
     text-align: center;
     padding: 20px;
+}
+
+/* Top Banner Text Styling */
+header h1 {
+    color: #e63946; /* Change the text color to red for better contrast */
 }
 
 /* Navigation Styling */
