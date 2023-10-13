@@ -58,13 +58,15 @@ footer {
 /* American Flag Background for "Our Mission" Section */
 #our-mission {
     background-image: url('american-flag.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     color: #ffffff;
 }
 
 /* American Flag Background for "Spotlight" Section */
 #Spotlight {
     background-image: url('Americas.jpg');
-    background-size: cover;
+    background-size: contain ;
+    background-repeat: no-repeat;
     color: #ffffff;
 }
