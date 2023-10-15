@@ -1,4 +1,4 @@
-/* General Styling */
+/</html>:/* General Styling */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
@@ -6,8 +6,7 @@ body {
 }
 
 /* Header Styling */
-header {
-    /* Your header styling here, without the image */
+
 }
 
 /* Top Banner Text Styling */
@@ -36,11 +35,10 @@ nav a {
 nav a:hover {
     color: #e63946;
 }
-
-/* Side Navigation Styling */
 .side-nav {
     list-style: none;
     padding: 0;
+    margin: 0;
     position: fixed;
     left: 0;
     top: 50%;
@@ -60,7 +58,6 @@ nav a:hover {
 .side-nav a:hover {
     color: #e63946;
 }
-
 /* Section Styling */
 section {
     background-color: #ffffff;
@@ -87,9 +84,7 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
-/* Newsletter Button Styling */
-.newsletter-button {
+    .newsletter-button {
     background-color: #e63946;
     color: #ffffff;
     font-size: 16px;
