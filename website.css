@@ -1,4 +1,4 @@
-/</html>:/* General Styling */
+/* General Styling */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
@@ -6,7 +6,8 @@ body {
 }
 
 /* Header Styling */
-
+header {
+    text-align: center; /* Center align the header text */
 }
 
 /* Top Banner Text Styling */
@@ -21,20 +22,22 @@ nav ul {
 }
 
 nav li {
-    display: inline;
-    margin-right: 20px;
+    margin-bottom: 10px; /* Add spacing between navigation items */
 }
 
 nav a {
     text-decoration: none;
     color: #1d3557;
     font-weight: bold;
+    display: block;
     transition: color 0.3s;
 }
 
 nav a:hover {
     color: #e63946;
 }
+
+/* Side Navigation Styling */
 .side-nav {
     list-style: none;
     padding: 0;
@@ -58,6 +61,7 @@ nav a:hover {
 .side-nav a:hover {
     color: #e63946;
 }
+
 /* Section Styling */
 section {
     background-color: #ffffff;
@@ -84,7 +88,9 @@ footer {
     text-align: center;
     padding: 10px;
 }
-    .newsletter-button {
+
+/* Newsletter Button Styling */
+.newsletter-button {
     background-color: #e63946;
     color: #ffffff;
     font-size: 16px;
