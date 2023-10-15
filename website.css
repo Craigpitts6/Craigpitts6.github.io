@@ -7,10 +7,7 @@ body {
 
 /* Header Styling */
 header {
-    background: url('Americas.jpg') no-repeat center center;
-    background-size: cover;
-    text-align: center;
-    padding: 100px 0;
+    /* Your header styling here, without the image */
 }
 
 /* Top Banner Text Styling */
@@ -22,17 +19,16 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
 nav li {
-    margin-bottom: 10px;
+    display: inline;
+    margin-right: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #1d3557;
-    display: block;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -46,7 +42,7 @@ nav a:hover {
     list-style: none;
     padding: 0;
     position: fixed;
-    left: 20px;
+    left: 0;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -59,8 +55,6 @@ nav a:hover {
     text-decoration: none;
     color: #1d3557;
     display: block;
-    font-weight: bold;
-    transition: color 0.3s;
 }
 
 .side-nav a:hover {
