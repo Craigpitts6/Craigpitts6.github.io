@@ -7,7 +7,10 @@ body {
 
 /* Header Styling */
 header {
-   <img src="Americas.jpg" alt="American Flag" class="american-flag-image">
+    background: url('Americas.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
 }
 
 /* Top Banner Text Styling */
@@ -19,16 +22,17 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav li {
-    display: inline;
-    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 nav a {
     text-decoration: none;
     color: #1d3557;
+    display: block;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -37,15 +41,12 @@ nav a:hover {
     color: #e63946;
 }
 
-    color: #1d3557;
-    display: block;
-}
+/* Side Navigation Styling */
 .side-nav {
     list-style: none;
     padding: 0;
-    margin: 0;
     position: fixed;
-    left: 0;
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -58,10 +59,14 @@ nav a:hover {
     text-decoration: none;
     color: #1d3557;
     display: block;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
 .side-nav a:hover {
-    color: 
+    color: #e63946;
+}
+
 /* Section Styling */
 section {
     background-color: #ffffff;
@@ -88,7 +93,9 @@ footer {
     text-align: center;
     padding: 10px;
 }
-    .newsletter-button {
+
+/* Newsletter Button Styling */
+.newsletter-button {
     background-color: #e63946;
     color: #ffffff;
     font-size: 16px;
