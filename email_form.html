@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Newsletter Sign-up Form">
+    <meta name="author" content="craig pitts">
+    <link rel="stylesheet" type="text/css" href="website.css">
+    <title>Newsletter Sign-up</title>
+</head>
+<body>
+    <header>
+        <h1>Newsletter Sign-up</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+    
+        </ul>
+    </nav>
+    <section>
+        <h2>Sign up for Vets of America Newsletter today!</h2>
+        <p>Stay connected with us by signing up for our newsletter. Fill out the form below:</p>
+        <form action="process_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <input type="submit" value="Subscribe">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023, Craig Pitts</p>
+    </footer>
+</body>
+</html>
