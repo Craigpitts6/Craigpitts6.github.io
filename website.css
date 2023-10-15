@@ -104,3 +104,17 @@ footer {
 .newsletter-button:hover {
     background-color: #c33c3c; /* Change the background color on hover */
 }
+/* CSS for the Submit Button in the "Nominate-Veteran" Section */
+#Nominate-Veteran input[type="submit"] {
+    background-color: #e63946; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#Nominate-Veteran input[type="submit"]:hover {
+    background-color: #c33c3c; /* Darker red on hover */
+}
