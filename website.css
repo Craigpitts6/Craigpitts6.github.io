@@ -14,6 +14,20 @@ body {
     overflow:auto;
     clear:both:
     }
+    /* Style the sidebar */
+.sidebar {
+    width: 25%; /* Adjust the width as needed */
+    float: left; /* You can use float to place it beside the main content */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Style the main content */
+main {
+    width: 75%; /* Adjust the width to complement the sidebar */
+    float: left;
+    padding: 20px;
+}
     
 
 /* Header Styling */
