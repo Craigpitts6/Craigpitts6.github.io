@@ -1,9 +1,20 @@
 /* General Styling */
 body {
     font-family: 'Arial', sans-serif;
+    front-size: 87.5%;
     background-color: #f7f7f7;
     color: #333;
+    line-height:1.7em;
+    text-align: left;
 }
+#container
+{
+    width:80%
+    margin:0;
+    overflow:auto;
+    clear:both:
+    }
+    
 
 /* Header Styling */
 header {
