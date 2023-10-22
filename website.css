@@ -21,7 +21,36 @@ body {
     background-color: #f0f0f0;
     padding: 20px;
 }
+.container {
+    display: flex;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Centers items along the main axis. */
+    align-items: center; /* Centers items along the cross axis. */
+}
+.item {
+    flex: 1; /* All items are equal width and fill the container. */
+}
 
+.container {
+    display: flex;
+}
+
+.sidebar {
+    flex: 1; /* Takes up 1/3 of the container width. */
+}
+
+.main-content {
+    flex: 2; /* Takes up 2/3 of the container width. */
+}
+.item {
+    order: 2; /* Moves the item to the end. */
+}
+.container {
+    display: flex;
+    flex-direction: column; /* For a vertical layout on smaller screens. */
+}
 /* Style the main content */
 main {
     width: 75%; /* Adjust the width to complement the sidebar */
