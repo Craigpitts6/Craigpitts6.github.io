@@ -57,6 +57,21 @@ footer img.uofsc {
     width: 10px; /* Corrected from 'size' to 'width' */
 }
 
+/* Red Button Styling */
+.red-button {
+    background-color: #e63946;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.red-button:hover {
+    background-color: #c33c3c;
+}
+
 /* Grid Styles */
 body {
     display: grid;
