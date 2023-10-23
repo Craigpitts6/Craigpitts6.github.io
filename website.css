@@ -7,124 +7,140 @@ body {
     line-height: 1.7em;
     text-align: left;
 }
+
+/* Header Image Styling */
 header img.american-flag-image {
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
+
+/* Footer Image Styling */
 footer img.uofsc {
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
+    width: 10px; /* Corrected from 'size' to 'width' */
 }
-/* Apply a grid layout to the body */
+
+/* Red Button Styling */
+.red-button {
+    background-color: #e63946;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.red-button:hover {
+    background-color: #c33c3c;
+}
+
+/* Grid Styles */
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 20px; /* Gap between the columns */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
-/* Style each grid block */
+
+/* Main Content Grid Block Styles */
 .grid-block {
     padding: 20px;
-    background-color: #f0f0f0; /* Adjust background color as needed */
+    background-color: #f0f0f0;
     border: 1px solid #ccc;
 }
+
 /* Container Styles */
 #container {
     width: 80%;
     margin: 0;
     overflow: auto;
     clear: both;
-    display: flex; /* Apply Flexbox to the container */
+    display: flex;
 }
+
 /* Sidebar Styles */
 .sidebar {
     width: 25%;
     background-color: #f0f0f0;
     padding: 20px;
 }
+
 /* Main Content Styles */
 main {
     width: 75%;
     padding: 20px;
 }
+
 /* Flexbox Styles */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .item {
     flex: 1;
     order: 2;
 }
+
 .sidebar {
     flex: 1;
 }
+
 .main-content {
     flex: 2;
 }
-/* Header Styling */
-header {
-    text-align: center;
+
+/* Navigation Styling (Excluded from Grid) */
+nav {
+    background-color: #f7f7f7;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
-/* Top Banner Text Styling */
-header h1 {
-    color: #e63946;
-}
-/* Navigation Styling */
+
 nav ul {
     list-style: none;
+    display: flex;
+    justify-content: space-around;
     padding: 0;
 }
+
 nav li {
-    margin-bottom: 10px;
+    margin: 0;
 }
+
 nav a {
     text-decoration: none;
     color: #1d3557;
     font-weight: bold;
-    display: block;
     transition: color 0.3s;
 }
+
 nav a:hover {
     color: #e63946;
 }
-/* Side Navigation Styling */
-.side-nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    position: fixed;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+
+header {
+    text-align: center;
 }
-.side-nav li {
-    margin-bottom: 10px;
-}
-.side-nav a {
-    text-decoration: none;
-    color: #1d3557;
-    display: block;
-}
-.side-nav a:hover {
+
+/* Title Styling */
+header h1 {
     color: #e63946;
 }
-/* Section Styling */
-section {
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
+
 /* Heading Styling */
 h1, h2, h3 {
     color: #1d3557;
 }
+
 /* Paragraph Styling */
 p {
     text-align: justify;
 }
+
 /* Footer Styling */
 footer {
     background-color: #1d3557;
@@ -132,6 +148,7 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
 /* Newsletter Button Styling */
 .newsletter-button {
     background-color: #e63946;
@@ -143,19 +160,7 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 .newsletter-button:hover {
-    background-color: #c33c3c;
-}
-/* CSS for the Red Submit Button */
-.red-button {
-    background-color: #e63946;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-.red-button:hover {
     background-color: #c33c3c;
 }
