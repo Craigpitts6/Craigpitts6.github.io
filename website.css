@@ -8,59 +8,66 @@ body {
     text-align: left;
 }
 
+/* Header Image Styling */
 header img.american-flag-image {
     display: block;
     margin: 0 auto;
 }
-media screen and (max-width: 768px) {
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 768px) {
     body {
-        font-size: 75%; /* Reduce the base font size for smaller screens */
-        display: block; /* Change the display property to stack elements vertically */
+        font-size: 75%;
+        display: block;
     }
 
-    /* Adjust header and title styling for smaller screens */
+    /* Header and Title Styling */
     header {
         text-align: center;
     }
 
     header h1 {
-        font-size: 24px; /* Reduce the font size for the title */
+        font-size: 24px;
     }
 
-    /* Modify the navigation for smaller screens */
+    /* Navigation Menu Styling */
     nav ul {
         text-align: center;
+        display: block;
     }
 
     nav li {
         margin: 0;
-        display: inline-block; /* Display menu items horizontally */
+        display: block;
     }
 
-    /* Adjust side navigation for smaller screens */
+    /* Sidebar Navigation */
     .side-nav {
         position: relative;
         transform: translateY(0);
         text-align: center;
         width: 100%;
     }
+}
+
+/* Footer Image Styling */
 footer img.uofsc {
     display: block;
-    margin: auto;
-    size: 10px;
+    margin: 0 auto;
+    width: 10px; /* Corrected from 'size' to 'width' */
 }
 
 /* Grid Styles */
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 20px; /* Gap between the columns */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
-/* Style the main content grid blocks */
+/* Main Content Grid Block Styles */
 .main-content {
     padding: 20px;
-    background-color: #f0f0f0; /* Adjust background color as needed */
+    background-color: #f0f0f0;
     border: 1px solid #ccc;
 }
 
@@ -70,7 +77,7 @@ body {
     margin: 0;
     overflow: auto;
     clear: both;
-    display: flex; /* Apply Flexbox to the container */
+    display: flex;
 }
 
 /* Sidebar Styles */
@@ -96,8 +103,8 @@ nav {
 
 nav ul {
     list-style: none;
-    display: flex; /* Display the list items in a horizontal row */
-    justify-content: space-around; /* Distribute items evenly */
+    display: flex;
+    justify-content: space-around;
     padding: 0;
 }
 
@@ -123,5 +130,5 @@ header {
 /* Title Styling */
 header h1 {
     color: #e63946;
-    text-align: center; /* Add this line to center the text */
+    text-align: center;
 }
