@@ -12,7 +12,38 @@ header img.american-flag-image {
     display: block;
     margin: 0 auto;
 }
+media screen and (max-width: 768px) {
+    body {
+        font-size: 75%; /* Reduce the base font size for smaller screens */
+        display: block; /* Change the display property to stack elements vertically */
+    }
 
+    /* Adjust header and title styling for smaller screens */
+    header {
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 24px; /* Reduce the font size for the title */
+    }
+
+    /* Modify the navigation for smaller screens */
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        margin: 0;
+        display: inline-block; /* Display menu items horizontally */
+    }
+
+    /* Adjust side navigation for smaller screens */
+    .side-nav {
+        position: relative;
+        transform: translateY(0);
+        text-align: center;
+        width: 100%;
+    }
 footer img.uofsc {
     display: block;
     margin: auto;
