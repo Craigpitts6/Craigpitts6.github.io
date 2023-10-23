@@ -11,6 +11,11 @@ header img.american-flag-image {
     display: block;
     margin: 0 auto; 
 }
+footer img.uofsc {
+    display: block;
+    margin: 0 auto; 
+}
+
 /* Container Styles */
 #container {
     width: 80%;
