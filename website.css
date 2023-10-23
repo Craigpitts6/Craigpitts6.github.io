@@ -16,15 +16,14 @@ footer img.uofsc {
     margin: 0 auto; 
     size:24px;
 }
-/* Apply a grid layout to the body */
 body {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 20px; /* Gap between the columns */
 }
 
-/* Style each grid block */
-.grid-block {
+/* Style the main content grid blocks */
+.main-content {
     padding: 20px;
     background-color: #f0f0f0; /* Adjust background color as needed */
     border: 1px solid #ccc;
