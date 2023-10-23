@@ -15,8 +15,8 @@ header img.american-flag-image {
 
 footer img.uofsc {
     display: block;
-    margin: 0 auto;
-    size: 24px;
+    margin: auto;
+    size: 10px;
 }
 
 /* Grid Styles */
