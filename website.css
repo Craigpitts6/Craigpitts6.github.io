@@ -7,145 +7,115 @@ body {
     line-height: 1.7em;
     text-align: left;
 }
-
-/* Header Image Styling */
 header img.american-flag-image {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
-
-/* Media Query for Smaller Screens */
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 75%;
-        display: block;
-    }
-
-    /* Header and Title Styling */
-    header {
-        text-align: center;
-    }
-
-    header h1 {
-        font-size: 24px;
-    }
-
-    /* Navigation Menu Styling */
-    nav ul {
-        text-align: center;
-        display: block;
-    }
-
-    nav li {
-        margin: 0;
-        display: block;
-    }
-
-    /* Sidebar Navigation */
-    .side-nav {
-        position: relative;
-        transform: translateY(0);
-        text-align: center;
-        width: 100%;
-    }
-}
-
-/* Footer Image Styling */
 footer img.uofsc {
     display: block;
-    margin: 0 auto;
-    width: 10px; /* Corrected from 'size' to 'width' */
+    margin: 0 auto; 
 }
-
-/* Red Button Styling */
-.red-button {
-    background-color: #e63946;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.red-button:hover {
-    background-color: #c33c3c;
-}
-
-/* Grid Styles */
+/* Apply a grid layout to the body */
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Gap between the columns */
 }
-
-/* Main Content Grid Block Styles */
-.main-content {
+/* Style each grid block */
+.grid-block {
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Adjust background color as needed */
     border: 1px solid #ccc;
 }
-
 /* Container Styles */
 #container {
     width: 80%;
     margin: 0;
     overflow: auto;
     clear: both;
-    display: flex;
+    display: flex; /* Apply Flexbox to the container */
 }
-
 /* Sidebar Styles */
 .sidebar {
     width: 25%;
     background-color: #f0f0f0;
     padding: 20px;
 }
-
 /* Main Content Styles */
 main {
     width: 75%;
     padding: 20px;
 }
-
-/* Navigation Styling (Excluded from Grid) */
-nav {
-    background-color: #f7f7f7;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+/* Flexbox Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.item {
+    flex: 1;
+    order: 2;
+}
+.sidebar {
+    flex: 1;
+}
+.main-content {
+    flex: 2;
+}
+/* Header Styling */
+header {
+    text-align: center;
+}
+/* Top Banner Text Styling */
+header h1 {
+    color: #e63946;
+}
+/* Navigation Styling */
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: space-around;
     padding: 0;
 }
-
 nav li {
-    margin: 0;
+    margin-bottom: 10px;
 }
-
 nav a {
     text-decoration: none;
     color: #1d3557;
     font-weight: bold;
+    display: block;
     transition: color 0.3s;
 }
-
 nav a:hover {
     color: #e63946;
 }
-
-header {
-    text-align: center;
+/* Side Navigation Styling */
+.side-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
-
-/* Title Styling */
-header h1 {
+.side-nav li {
+    margin-bottom: 10px;
+}
+.side-nav a {
+    text-decoration: none;
+    color: #1d3557;
+    display: block;
+}
+.side-nav a:hover {
     color: #e63946;
-    text-align: center;
+}
+/* Section Styling */
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 /* Heading Styling */
 h1, h2, h3 {
