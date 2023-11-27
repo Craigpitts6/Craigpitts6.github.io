@@ -2,88 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-     <meta name="description" content="Welcome to Minority Veterans' Respect of America Alliance Association. We honor the service of minority veterans and advocate for their recognition and support.">
-    <meta name="keywords" content="Minority veterans, recognition, support, American history, advocacy">
-    <meta name="author" content="Craig Pitts,UofSC">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="website.css">
-    <title>Welcome to Minority Veterans' of America Alliance Association</title>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBR80PZR8S"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-QBR80PZR8S');
-    </script>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1><img src="Americas.jpg" alt="American Flag Logo" class="american-flag-image">Welcome to Minority Veterans'of America Alliance Association</h1>
-    </header>
-    <section>
-  <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="second_page.html">Second Page</a></li>
-        <li><a href="form_page.html">Form Page</a></li>
-        <li><a href="#our-mission">Our Mission</a></li>
-        <li><a href="#what-we-do">What We Do</a></li>
-        <li><a href="#join-us">Join Us</a></li>
-        <li><a href="#stay-connected">Stay Connected</a></li>
-    </ul>
-</nav>
-<div class="grind-block">
-        </section>
-    <section id="our-mission">
-        <h2>Our Mission</h2>
-        <p>At Minority Veterans' of America Alliance Association, our mission is clear: to ensure that every minority American veteran is recognized, respected, and supported. We believe that the sacrifices made by our minority veterans throughout history should never go unnoticed, and we are here to make a difference.</p>
-    </section>
-    <section>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/eJIlozxq74I?si=uDuHSbkdvti_K9Y5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   </section>
-        <section id="what-we-do">
-        <h2>What We Do</h2>
-        <ul>
-            <li>Raise Awareness: We raise awareness about the unique challenges and contributions of minority veterans through educational content and advocacy.</li>
-            <li>Resources: We provide a comprehensive directory of resources to help minority veterans access the benefits and support they've earned.</li>
-            <li>Community: We foster a supportive community where minority veterans can share their stories, experiences, and find camaraderie.</li>
-            <li>Legal Assistance: We offer guidance and support on legal issues, including benefits claims and appeals.</li>
-            <li>Advocacy: We advocate for policy changes that address the disparities faced by minority veterans in various aspects of life.</li>
-        </ul>
-        <h2>Addtional Resourses</h2>
-<ul>
-    <li><a href="https://sc.edu/about/offices_and_divisions/veterans_and_military_services/index.php" target="_blank">University of South Carolina Veterans and Military Services</a></li>
-   <li><a href="https://www.va.gov/resources/" target="_blank">U.S. Department of Veterans Affairs Resources</a></li>
-    <li><a href="https://www.columbiahousingsc.org/vash#:~:text=The%20HUD%2DVASH%20program%20provides,US%20Department%20of%20Veterans%20Affairs" target="_blank">HUD-VASH Program - Columbia Housing</a></li>
-    <li><a href="https://www.neptunesociety.com/resources/list-helpful-veteran-resources-support-groups" target="_blank">Neptune Society - List of Helpful Veteran Resources</a></li>
-</ul>
-    </section>
-    <section id="join-us">
-        <h2>Join Us</h2>
-        <p>We invite you to join us in our mission to give minority veterans the recognition and respect they deserve. Together, we can make a positive impact on the lives of those who have served our country.</p>
-       <p>If you are in need of support, you can also find help from organizations like the <a href="https://www.woundedwarriorproject.org/programs/peer-support">Wounded Warrior Project's Peer Support Program</a>.</p>
-        <img src="Wounded.jpg" alt="Advertisement" class="sidebar-image">
-    </section>
-    <section id="stay-connected">
-        <h2>Stay Connected</h2>
-           <a href="email_form.html" class="newsletter-button">Sign up for Vets of America Newsletter today!</a>
-        <p>Follow us on social media for updates, stories, and upcoming events. Join our mailing list to stay informed about our initiatives.</p><p>Please feel encouraged to <a href="https://www.eventbrite.com/d/sc--columbia/veteran/" target="_blank">join local events</a> with members of our community.</p>
-        <p>If you want to nominate a veteran, <a href="form_page.html" class="newsletter-button">click here</a>.</p>
-    </section>
-       <div id="container">
-           <section>
-        <aside>
-            <!-- Sidebar content here, including the image -->
-            <img src="5.jpg" alt="Advertisement" class="sidebar-image">
-        </aside>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form id="registration-form" action="#" method="post">
+            <!-- Name -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <!-- Additional fields  -->
+
+            <button type="submit">Register</button>
+        </form>
     </div>
-    </section>
-</div>
-    <footer>
-        <p>&copy; 2023, Craig Pitts</p>
-        <img src="uofsc.jpg" alt="uofsc" class="uofsc">
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
