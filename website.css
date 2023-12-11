@@ -67,13 +67,50 @@ main {
     width: 75%;
     padding: 20px;
 }
+.grid-block {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #000; /* Black border */
+}
+
+/* Container Styles */
+#container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #000; /* Black border */
+}
+
+/* Sidebar Styles */
+aside {
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #000; /* Black border */
+}
+
+/* Main Content Styles */
+main {
+    width: 75%;
+    padding: 20px;
+    border: 1px solid #000; /* Black border */
+}
+
+/* Section Styles (Adjust the selector accordingly) */
+section {
+    border: 1px solid #000; /* Black border */
+    padding: 20px;
+    margin-bottom: 20px; /* Add some space between sections */
+}
 
 /* Navigation Styling (Excluded from Grid) */
 nav {
+    nav {
     background-color: #f7f7f7;
     position: fixed;
     width: 100%;
     z-index: 100;
+    top: 0; /* Stick to the top */
+}
 }
 
 nav ul {
