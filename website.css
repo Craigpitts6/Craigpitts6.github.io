@@ -8,7 +8,7 @@ body {
     text-align: left;
 }
 
-/* Header Image Styling */
+/* Header Image */
 header img.american-flag-image {
     display: block;
     margin: 0 auto;
@@ -27,14 +27,14 @@ h1, h2, h3 {
     color: #1d3557;
 }
 
-/* Footer Image Styling */
+/* Footer Styling */
 footer img.uofsc {
     display: block;
     margin: 0 auto;
     width: 10px; /* Corrected from 'size' to 'width' */
 }
 
-/* Red Button Styling */
+/* Red Button */
 .red-button {
     background-color: #e63946;
     color: #fff;
@@ -146,22 +146,22 @@ header {
     text-align: center;
 }
 
-/* Title Styling */
+/* Title */
 header h1 {
     color: #e63946;
 }
 
-/* Heading Styling */
+/* Heading  */
 h1, h2, h3 {
     color: #1d3557;
 }
 
-/* Paragraph Styling */
-p {
+/* Paragraph */
+
     text-align: justify;
 }
 
-/* Footer Styling */
+/* Footer  */
 footer {
     background-color: #1d3557;
     color: #ffffff;
