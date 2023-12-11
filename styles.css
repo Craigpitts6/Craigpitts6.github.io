@@ -42,3 +42,40 @@ body {
     }
     button:hover {
     background-color: #0056b3;
+    /* CSS for dark mode */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #555;
+}
+document.addEventListener("DOMContentLoaded", function () {
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+    
+    // Check if the user has a preference stored in localStorage
+    const isDarkMode = localStorage.getItem("darkMode") === "true";
+
+    // Apply dark mode based on the stored preference
+    document.body.classList.toggle("dark-mode", isDarkMode);
+
+    // Function to toggle dark mode
+    function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+        
+        // Update the preference in localStorage
+        const newDarkModeValue = document.body.classList.contains("dark-mode");
+        localStorage.setItem("darkMode", newDarkModeValue.toString());
+    }
+
+    darkModeToggle.addEventListener("click", toggleDarkMode);
