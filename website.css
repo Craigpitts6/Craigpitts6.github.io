@@ -13,6 +13,19 @@ header img.american-flag-image {
     display: block;
     margin: 0 auto;
 }
+header {
+    text-align: center;
+}
+
+/* Title Styling */
+header h1 {
+    color: #e63946;
+}
+
+/* Heading Styling */
+h1, h2, h3 {
+    color: #1d3557;
+}
 
 /* Footer Image Styling */
 footer img.uofsc {
