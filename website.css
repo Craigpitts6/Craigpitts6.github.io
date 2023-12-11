@@ -39,8 +39,7 @@ footer img.uofsc {
 /* Grid Styles */
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr;
 }
 
 /* Main Content Grid Block Styles */
@@ -53,14 +52,11 @@ body {
 /* Container Styles */
 #container {
     width: 80%;
-    margin: 0;
-    overflow: auto;
-    clear: both;
-    display: flex;
+    margin: 0 auto;
 }
 
 /* Sidebar Styles */
-.sidebar {
+aside {
     width: 25%;
     background-color: #f0f0f0;
     padding: 20px;
@@ -70,26 +66,6 @@ body {
 main {
     width: 75%;
     padding: 20px;
-}
-
-/* Flexbox Styles */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.item {
-    flex: 1;
-    order: 2;
-}
-
-.sidebar {
-    flex: 1;
-}
-
-.main-content {
-    flex: 2;
 }
 
 /* Navigation Styling (Excluded from Grid) */
@@ -164,11 +140,13 @@ footer {
 .newsletter-button:hover {
     background-color: #c33c3c;
 }
+
 /* CSS for dark mode */
 .dark-mode body {
     background-color: #333;
     color: #fff;
 }
+
 .slider-container {
     width: 100%;
     overflow: hidden;
