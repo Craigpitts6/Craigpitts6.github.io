@@ -24,12 +24,18 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     setInterval(nextSlide, 3000);
-
-  // Dark Mode Toggle
+    
+document.addEventListener("DOMContentLoaded", function () {
     const darkModeToggle = document.getElementById("dark-mode-toggle");
+
+ 
+
     darkModeToggle.addEventListener("click", function () {
         document.body.classList.toggle("dark-mode");
     });
+
+    // Form validation and other JavaScript logic
+});
     form.addEventListener("submit", function (event) {
         // Initialize an array to store error messages
         const errors = [];
