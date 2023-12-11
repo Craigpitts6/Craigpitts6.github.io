@@ -102,16 +102,6 @@ section {
     margin-bottom: 20px; /* Add some space between sections */
 }
 
-/* Navigation Styling (Excluded from Grid) */
-nav {
-    nav {
-    background-color: #f7f7f7;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    top: 0; /* Stick to the top */
-}
-}
 
 nav ul {
     list-style: none;
@@ -129,10 +119,14 @@ nav a {
     color: #1d3557;
     font-weight: bold;
     transition: color 0.3s;
+    padding: 10px 15px; /* Add padding for better visual */
+    border: 2px solid #0077cc; /* Blue border */
+    border-radius: 5px; /* Rounded corners */
 }
 
 nav a:hover {
     color: #e63946;
+    background-color: #0077cc; /* Change background color on hover */
 }
 
 header {
