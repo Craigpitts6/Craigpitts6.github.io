@@ -171,13 +171,11 @@ footer {
 .newsletter-button:hover {
     background-color: #c33c3c;
 }
-
 /* CSS for dark mode */
-.dark-mode body {
+body.dark-mode {
     background-color: #333;
     color: #fff;
 }
-
 /* Dark Mode Toggle Button */
 .dark-mode-toggle {
     background-color: #333;
@@ -191,6 +189,13 @@ footer {
 .dark-mode-toggle:hover {
     background-color: #555;
 }
+document.addEventListener("DOMContentLoaded", function () {
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+
+    darkModeToggle.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+    });
+
 .slider-container {
     width: 100%;
     overflow: hidden;
