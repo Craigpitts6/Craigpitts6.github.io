@@ -25,11 +25,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setInterval(nextSlide, 3000);
 
-    // Dark Mode Toggle
+  // Dark Mode Toggle
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
     darkModeToggle.addEventListener("click", function () {
         document.body.classList.toggle("dark-mode");
     });
-
     form.addEventListener("submit", function (event) {
         // Initialize an array to store error messages
         const errors = [];
