@@ -5,6 +5,32 @@ document.addEventListener("DOMContentLoaded", function () {
     const passwordInput = document.getElementById("password");
     const confirmPasswordInput = document.getElementById("confirm-password");
     form.addEventListener("submit", function (event) {
+        
+    // Image Slider
+    const slider = document.querySelector(".slider");
+    let slideIndex = 0;
+
+    function showSlide(index) {
+        slider.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    function nextSlide() {
+        if (slideIndex < 2) {
+            slideIndex++;
+        } else {
+            slideIndex = 0;
+        }
+        showSlide(slideIndex);
+    }
+
+    setInterval(nextSlide, 3000);
+
+    // Dark Mode Toggle
+    darkModeToggle.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+    });
+
+    form.addEventListener("submit", function (event) {
     // Initialize an array to store error messages
     const errors = [];
     // Validation for username (minimum length of 3 characters)
